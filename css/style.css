@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+section.container-flex-main{
+    width: 100%;
+    height: 100%;    
+    display: flex;
+}
+
+.container-img-main{
+    width: 50%;
+    height: 100%;
+    background-image: url('../img/img2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 20px 0 20px #000000d7;
+
+    }
+
+.container-form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    justify-content: center;
+}
+
+.container-form h2{
+font-size: 40px;
+font-weight: bold;
+color: #000000ad;
+line-height: 40px;
+}
+
+.form{
+    border-top: solid 1px #0000007b;
+    margin-top: 25px;
+}
+
+.form h3{
+    margin-top: 30px;
+    color: #0000007b;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.container-input label {
+    color: #000000ad;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-input input{
+    border: solid 2px #0000007b;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 15;
+    box-shadow: 0 10px 20px #0000007b;
+    margin-top: 10px;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-button input{
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #0000007b;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+.container-button:hover{
+    background-color:#00000062;
+}
+
+.container-signup{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.container-signup{
+   font-size: 15px;
+   color: #0000007b;
+    
+}
+
+.container-signup a{
+    color: #0000008c;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 15px;
+    }
+
+    @media(max-width: 1600px){
+        .container-form{
+            padding: 80px;
+        }
+    }
+
+    @media(max-width: 800px){
+        section.container-flex-main{
+           flex-direction: column;
+
+        }
+    }
+
+.container-img-main{
+    width: 100%;
+}
+.container-form{
+    width: 100%;
+    padding: 110px;
+}
+
